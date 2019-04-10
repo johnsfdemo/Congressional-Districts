@@ -26,7 +26,7 @@ Creating a new map widget that displays the Congressional Districts is very stra
 
 ## How to Deploy to Your Org
 
-I am a pre-sales Solutions Engineer for [Salesforce](https://www.salesforce.com) and develop solutions for my customers for demonstration purposes only. *This package represents functionality that I have used for demonstration purposes and is definitely not ready for actual production use; specifically, it has not been tested extensively nor has it been written with security and access controls in mind.*  If you are OK with that ...
+I am a pre-sales Solutions Engineer for [Salesforce](https://www.salesforce.com) and develop solutions for my customers to demonstrate the amazing Salesforce platform. *This package represents functionality that I have used for demonstration purposes only and the content herein is definitely not ready for actual production use; specifically, it has not been tested extensively nor has it been written with security and access controls in mind.*  If you are OK with that ...
 
 Simply click the button below and log into your org:
 
