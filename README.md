@@ -5,9 +5,9 @@ This package contains GeoJSON for the U.S. Congressional Districts for the 116th
 Finally, I have included a [Mockaroo](http://mockaroo.com) schema and dataset to assist the generation of dummy state and district information for demos.
 
 
-## Mockaroo
+## Using Mockaroo to Generate Dummy Demo Data for the Map
 
-The custom map indexes districts by <*Two-Character State Code(*)>-<*Two-Digit District Number*>, for example, "VA-02" or "TX-43". In order to make sure that we don't generate invalid districts (for example, "VA-53" -- Virginia only has 11 districts), it is necessary to upload a [US Districts by State](/mockaroo/US%20Districts%20by%20State.csv) dataset into Mockaroo which contains a list of the states and the total number of districts each has.
+The custom map indexes districts by <*Two-Character State Code*>-<*Two-Digit District Number*>, for example, "VA-02" or "TX-43". In order to make sure that we don't generate invalid districts (for example, "VA-53" -- Virginia only has 11 districts), it is necessary to upload a [US Districts by State](/mockaroo/US%20Districts%20by%20State.csv) dataset into Mockaroo which contains a list of the states and the total number of districts each has.
 
 From there, it's easy in Mockaroo to generate random state abbreviations and then generate random districts based on those states using the US Districts by State dataset:
 
