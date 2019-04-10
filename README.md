@@ -36,7 +36,7 @@ Simply click the button below and log into your org when requested:
 
 ## Using Mockaroo to Generate Dummy Demo Data for the Map
 
-The custom map uniquely identifies districts using the string <*Two-Character State Code*>-<*Two-Digit District Number*>, for example, "VA-02" or "TX-43". In order to make sure that we don't generate invalid districts (for example, "VA-53" -- Virginia only has 11 districts), it is necessary to upload a [US Districts by State](/mockaroo/US%20Districts%20by%20State.csv) dataset into Mockaroo which contains a list of the states and the total number of districts each has.
+The custom map uniquely identifies districts using the string <*Two-Character State Code*>-<*Two-Digit District Number*>, for example, "VA-02" or "TX-43". In order to make sure that we don't generate invalid districts (for example, "VA-53" -- Virginia only has 11 districts), it is necessary to upload this [US Districts by State](/mockaroo/US%20Districts%20by%20State.csv) dataset into Mockaroo which contains a list of the states and the total number of districts each state has.
 
 From there, it's easy to get Mockaroo to generate random state abbreviations and random districts based on those states (in the correct form to index the map) using the `US Districts by State` dataset:
 
