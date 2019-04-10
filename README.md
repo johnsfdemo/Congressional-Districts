@@ -42,7 +42,7 @@ From there, it's easy to get Mockaroo to generate random state abbreviations and
 
 ![Schema Snippet](/images/Mockaroo_Schema.png)
 
-You can upload the [schema snippet](/mockaroo/US%20District%20Generator.schema.json) shown above into Mockaroo to help get you started.
+I have included the [schema snippet](/mockaroo/US%20District%20Generator.schema.json) shown above so you can upload it into Mockaroo and get you off and running quickly.
 
 Once `state` has been generated, the heavy lifting is done by the [Ruby](https://www.ruby-lang.org/en/) formula:
 ```
