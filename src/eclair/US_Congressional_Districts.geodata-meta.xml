@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EclairGeoData xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <maps>
+        <mapLabel>US Congressional Districts</mapLabel>
+        <mapName>map_1552490575125</mapName>
+        <projection>AlbersUSA</projection>
+    </maps>
+    <masterLabel>US_Congressional_Districts</masterLabel>
+</EclairGeoData>

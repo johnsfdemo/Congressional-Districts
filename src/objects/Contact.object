@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Congressional_District__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Congressional District where the contact resides.</inlineHelpText>
+        <label>Congressional District</label>
+        <length>5</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Congressional_District_Must_Be_Valid</fullName>
+        <active>true</active>
+        <description>Make sure the Congressional District is of the form &lt;State Abbreviation&gt;-&lt;2-digit District Number&gt;.</description>
+        <errorConditionFormula>!REGEX(Congressional_District__c, &quot;^[A-W][A-W]-[0-9][1-9]$&quot;)</errorConditionFormula>
+        <errorDisplayField>Congressional_District__c</errorDisplayField>
+        <errorMessage>Congressional District must be of the form &quot;&lt;state abbreviation&gt;-&lt;two-digit district number&gt;&quot;; for example, &quot;VA-03&quot;.</errorMessage>
+    </validationRules>
+</CustomObject>

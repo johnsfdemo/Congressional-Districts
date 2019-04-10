@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US Congressional Districts</fullName>
+    <description>Includes the contact custom field for congressional district, a validation rule for it, and a custom map for Analytics showing the U.S. Congressional Districts for the 116th Congress.</description>
+    <types>
+        <members>Contact.Congressional_District__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>US_Congressional_Districts</members>
+        <name>EclairGeoData</name>
+    </types>
+    <types>
+        <members>Contact.Congressional_District_Must_Be_Valid</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>44.0</version>
+</Package>
