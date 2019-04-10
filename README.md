@@ -15,12 +15,15 @@ From there, it's easy in Mockaroo to generate random state abbreviations and the
 
 You can upload the [schema snippet](/mockaroo/US%20District%20Generator.schema.json) shown above into Mockaroo to help get you started.
 
-The relevant formula, once *state* has been generated, is given by:
-```ruby
+The relevant formula, once `state` has been generated, is given by:
+```
 state + "-" + ("%02d" % random(1, from_dataset("US Districts by State", "Number_of_CDs", State:state).to_i))
 ```
-
-
+- `from_dataset` pulls in the number of Congressional Districts from the `US Districts by State` dataset you uploaded earlier, using `state` as a primary key.
+- `.to_i` converts the number string to an integer.
+- `random` generates a random number between 1 and the total number of districts the state has.
+- `"%02d"` formats the number to have a leading 0 in case the random number generated is less than 10.
+- the rest just concatenates the `state` and a hyphen and the number.
 
 
 ## How to Deploy to Your Org
