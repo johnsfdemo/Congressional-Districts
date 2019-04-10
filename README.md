@@ -5,6 +5,23 @@ This package contains [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) for the U
 Finally, I have included a [Mockaroo](http://mockaroo.com) schema and dataset to assist the generation of dummy state and district information for demos.
 
 
+## U.S. Congressional Districts Custom Map for Einstein Analytics
+
+Here is an example of the custom field in action:
+
+![Congressional Districts on Dashboard](/images/Dashboard.png)
+
+Once this package is deployed, you will have a new custom field on the Contact object called "Congressional District" as well as a validation rule on that field to make sure that it can properly index the districts on the custom map:
+
+![Validation Rule](/images/Validation.png)
+
+Creating a new map widget that displays the Congressional Districts is very straightforward:
+
+![Congressional District Lens](/images/CD_Lens.png)
+![Custom Map Lens](/images/CD_Lens_Custom_Map.png)
+![Final Map](/images/CD_Map.png)
+
+
 ## How to Deploy to Your Org
 
 Simply click the button below and log into your org when requested:
