@@ -1,6 +1,6 @@
 # U.S. Congressional Districts
 
-This package contains [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) for the U.S. Congressional Districts for the 116th Congress, based on the U.S. Census Bureau data for that year, that can be uploaded in the form of a Salesforce Einstein Analytics custom map. It also contains a custom field on the Contact object to contain the district information as well as a validation rule for that field to ensure that data stored there will properly index the map.
+This package contains [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) for the U.S. Congressional Districts for the 116th Congress, based on the U.S. Census Bureau data for that session, that can be uploaded in the form of a Salesforce Einstein Analytics custom map. It also contains a custom field on the Contact object to contain the district information as well as a validation rule for that field to ensure that data stored there will properly index the map.
 
 Finally, I have included a [Mockaroo](http://mockaroo.com) schema and dataset to assist the generation of dummy state and district information for demos.
 
