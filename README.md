@@ -5,28 +5,30 @@ This package contains a custom map of the U.S. Congressional Districts for the 1
 Finally, I have included a [Mockaroo](http://mockaroo.com) schema and dataset to assist the generation of dummy state and district information for demos.
 
 
+
 ## U.S. Congressional Districts Custom Map for Einstein Analytics
 
 Here is an example of the custom map in action:
 
 ![Congressional Districts on Dashboard](/images/Dashboard.png)
 
-Once this package is deployed, you will have a new custom field on the Contact object called "Congressional District" as well as a validation rule on that field to make sure that it can properly index the districts on the custom map:
+Once this package is deployed, you will have a new custom field on the `Contact` object called `Congressional District` as well as a validation rule on that field to make sure that it can properly index the districts on the custom map:
 
 ![Validation Rule](/images/Validation.png)
 
-Of course, there is no reason that the custom field can't be placed on any other object. The `Contact` object was a good place to put the field and the validation rule if for no other reason than for demonstration purposes.
+Of course, there is no reason that the custom field can't be placed on any other object. The `Contact` object was a good place to put the field and the validation rule since it already had addresses contained in it.
 
-Creating a new map widget that displays the Congressional Districts is very straightforward:
+Creating a new map widget that displays the Congressional districts is very straightforward:
 
 ![Congressional District Lens](/images/CD_Lens.png)
 ![Custom Map Lens](/images/CD_Lens_Custom_Map.png)
 ![Final Map](/images/CD_Map.png)
 
 
+
 ## How to Deploy to Your Org
 
-I am a pre-sales Solutions Engineer for [Salesforce](https://www.salesforce.com) and develop solutions for my customers to demonstrate the amazing Salesforce platform. *This package represents functionality that I have used for demonstration purposes only and the content herein is definitely not ready for actual production use; specifically, it has not been tested extensively nor has it been written with security and access controls in mind.*  If you are OK with that ...
+I am a pre-sales Solutions Engineer for [Salesforce](https://www.salesforce.com) and I develop solutions for my customers to demonstrate the amazing Salesforce platform. *This package represents functionality that I have used for demonstration purposes only and the content herein is definitely not ready for actual production use; specifically, it has not been tested extensively nor has it been written with security and access controls in mind.*  If you are OK with that ...
 
 Simply click the button below and log into your org:
 
@@ -34,6 +36,7 @@ Simply click the button below and log into your org:
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
+
 
 
 ## Using Mockaroo to Generate Dummy Demo Data for the Map
