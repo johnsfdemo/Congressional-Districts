@@ -15,6 +15,8 @@ Once this package is deployed, you will have a new custom field on the Contact o
 
 ![Validation Rule](/images/Validation.png)
 
+*Note:* Of course, there is no reason that the custom field can't be placed on any other object. The Contact object was a good place to put the field and the validation rule if for no other reason than for demonstration purposes.
+
 Creating a new map widget that displays the Congressional Districts is very straightforward:
 
 ![Congressional District Lens](/images/CD_Lens.png)
