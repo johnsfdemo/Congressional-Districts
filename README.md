@@ -7,7 +7,7 @@ Finally, I have included a [Mockaroo](http://mockaroo.com) schema and dataset to
 
 ## U.S. Congressional Districts Custom Map for Einstein Analytics
 
-Here is an example of the custom field in action:
+Here is an example of the custom map in action:
 
 ![Congressional Districts on Dashboard](/images/Dashboard.png)
 
