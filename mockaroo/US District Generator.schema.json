@@ -1,0 +1,23 @@
+{
+  "id": 158617,
+  "num_rows": 1000,
+  "file_format": "csv",
+  "name": "US District Generator",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "state",
+      "null_percentage": 0,
+      "type": "State (abbrev)",
+      "onlyUSPlaces": true,
+      "formula": ""
+    },
+    {
+      "name": "district",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "state + \"-\" + (\"%02d\" % random(1, from_dataset(\"US Districts by State\", \"Number_of_CDs\", State:state).to_i))",
+      "formula": ""
+    }
+  ]
+}
