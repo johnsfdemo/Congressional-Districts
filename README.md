@@ -1,6 +1,6 @@
 # U.S. Congressional Districts
 
-This package contains a custom map showing the U.S. Congressional Districts for the 116th Congress, based on the U.S. Census Bureau data for that session, that can be used with Salesforce Einstein Analytics. It also contains a custom field on the Contact object to contain the district information as well as a validation rule for that field to ensure that data stored there will properly index the map.
+This package contains a custom map of the U.S. Congressional Districts for the 116th Congress, based on the U.S. Census Bureau data for that session, that can be used with Salesforce Einstein Analytics. It also contains a custom field on the Contact object to contain the district information as well as a validation rule for that field to ensure that data stored there will properly index the map.
 
 Finally, I have included a [Mockaroo](http://mockaroo.com) schema and dataset to assist the generation of dummy state and district information for demos.
 
@@ -15,7 +15,7 @@ Once this package is deployed, you will have a new custom field on the Contact o
 
 ![Validation Rule](/images/Validation.png)
 
-*Note:* Of course, there is no reason that the custom field can't be placed on any other object. The Contact object was a good place to put the field and the validation rule if for no other reason than for demonstration purposes.
+Of course, there is no reason that the custom field can't be placed on any other object. The Contact object was a good place to put the field and the validation rule if for no other reason than for demonstration purposes.
 
 Creating a new map widget that displays the Congressional Districts is very straightforward:
 
@@ -44,7 +44,7 @@ From there, it's easy to get Mockaroo to generate random state abbreviations and
 
 ![Schema Snippet](/images/Mockaroo_Schema.png)
 
-I have included the [schema snippet](/mockaroo/US%20District%20Generator.schema.json) shown above so you can upload it into Mockaroo and get you up and running quickly.
+I have included the [schema snippet](/mockaroo/US%20District%20Generator.schema.json) shown above so you can upload it into Mockaroo and get up and running quickly.
 
 Once `state` has been generated, the heavy lifting is done by the [Ruby](https://www.ruby-lang.org/en/) formula:
 ```
