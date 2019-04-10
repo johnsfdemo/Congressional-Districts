@@ -44,7 +44,7 @@ From there, it's easy to get Mockaroo to generate random state abbreviations and
 
 You can upload the [schema snippet](/mockaroo/US%20District%20Generator.schema.json) shown above into Mockaroo to help get you started.
 
-The heavy lifting, once `state` has been generated, is done by the [Ruby](https://www.ruby-lang.org/en/) formula:
+Once `state` has been generated, the heavy lifting is done by the [Ruby](https://www.ruby-lang.org/en/) formula:
 ```
 state + "-" + ("%02d" % random(1, from_dataset("US Districts by State", "Number_of_CDs", State:state).to_i))
 ```
