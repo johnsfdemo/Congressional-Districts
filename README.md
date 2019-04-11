@@ -1,6 +1,6 @@
 # U.S. Congressional Districts
 
-This package contains a custom map of the U.S. Congressional Districts for the 116th Congress, based on the U.S. Census Bureau data for that session, that can be used with [Salesforce Einstein Analytics](https://www.salesforce.com/products/einstein-analytics/overview/). It also contains a custom field on the `Contact` object to contain the district information as well as a validation rule for that field to ensure that data stored there will properly index the map.
+This package contains a custom map of the U.S. Congressional Districts for the 116th Congress, based on the [U.S. Census Bureau mapping data](https://github.com/loganpowell/census-geojson/tree/master/GeoJSON/5m/2017), that can be used with [Salesforce Einstein Analytics](https://www.salesforce.com/products/einstein-analytics/overview/). It also contains a custom field on the `Contact` object to contain the district information as well as a validation rule for that field to ensure that data stored there will properly index the map.
 
 Finally, I have included a [Mockaroo](http://mockaroo.com) schema and dataset to assist the generation of dummy state and district information for demos.
 
@@ -26,7 +26,7 @@ Creating a new map widget that displays the Congressional districts is very stra
 
 ## How to Deploy This Package to Your Org
 
-I am a pre-sales Solutions Engineer for [Salesforce](https://www.salesforce.com) and I develop solutions for my customers to demonstrate the capabilities of the amazing Salesforce platform. *This package represents functionality that I have used for demonstration purposes  and the content herein is definitely not ready for actual production use; specifically, it has not been tested extensively nor has it been written with security and access controls in mind. By installing this package, you assume all risk for any consequences and agree not to hold me or my company liable.*  If you are OK with that ...
+I am a pre-sales Solutions Engineer for [Salesforce](https://www.salesforce.com) and I develop solutions for my customers to demonstrate the capabilities of the amazing Salesforce platform. *This package represents functionality that I have used for demonstration purposes and the content herein is definitely not ready for actual production use; specifically, it has not been tested extensively nor has it been written with security and access controls in mind. By installing this package, you assume all risk for any consequences and agree not to hold me or my company liable.*  If you are OK with that ...
 
 Simply click the button below and log into your org:
 
