@@ -11,7 +11,7 @@ Here is an example of the custom map in action:
 
 ![Congressional Districts on Dashboard](/images/Dashboard.png)
 
-Once this package is deployed, you will have a new custom field on the `Contact` object called `Congressional District` as well as a validation rule on that field to make sure that it can properly index the districts on the custom map:
+Once this package is [deployed](#how-to-deploy-this-package-to-your-org), you will have a new custom field on the `Contact` object called `Congressional District` as well as a validation rule on that field to make sure that it can properly index the districts on the custom map:
 
 ![Validation Rule](/images/Validation.png)
 
