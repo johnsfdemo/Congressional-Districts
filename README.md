@@ -55,3 +55,8 @@ state + "-" + ("%02d" % random(1, from_dataset("US Districts by State", "Number_
 - `random` generates a random number between 1 and the total number of districts the state has.
 - `"%02d"` formats the number to have a leading 0 in case the random number generated is less than 10.
 - the rest just concatenates the `state` and a hyphen and the number.
+
+
+## References
+
+- [GeoJSON used for the map](https://github.com/loganpowell/census-geojson/tree/master/GeoJSON/5m/2017)
