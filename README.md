@@ -59,4 +59,4 @@ state + "-" + ("%02d" % random(1, from_dataset("US Districts by State", "Number_
 
 ## References
 
-- [GeoJSON used for the map](https://github.com/loganpowell/census-geojson/tree/master/GeoJSON/5m/2017)
+- I used the [Census Bureau GeoJSON](https://github.com/loganpowell/census-geojson/tree/master/GeoJSON/5m/2017) that was kindly provided by @loganpowell
