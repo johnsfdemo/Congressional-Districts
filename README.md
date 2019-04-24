@@ -60,3 +60,4 @@ state + "-" + ("%02d" % random(1, from_dataset("US Districts by State", "Number_
 ## References
 
 - I used the [Census Bureau GeoJSON](https://github.com/loganpowell/census-geojson/tree/master/GeoJSON/5m/2017) that was kindly provided by @loganpowell
+- There's an excellent [tool to tweak GeoJSON files](https://github.com/mapbox/geojson-quirks) that can help you get IDs into the right place for use with Einstein Analytics maps.
